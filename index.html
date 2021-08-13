@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Card</title>
+</head>
+<body>
+    <div class="container">
+        <div class="card-container" id="card-container">
+            <div class="card" id="card">
+                <!-- <div class="card-content">
+                    <h1 class="card-title">Litoral Creativo</h1>
+                    <p class="card-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean sollicitudin ut nisl ac varius. Vivamus tempor nunc mauris, sit amet fringilla turpis gravida et. Nullam semper finibus libero. Nullam ultricies nulla in fringilla finibus. Integer lacinia aliquam nisi ut condimentum. Nunc neque quam, aliquet fermentum ultricies ac, porta eu dolor.</p>
+                </div> -->
+            </div>
+        </div>
+    </div>
+    <svg>
+        <filter id="wavy">
+            <feTurbulence type="turbulence" result="turbulence" x="0" y="0" baseFrequency="0.009" numOctaves="5" seed="2">
+                <animate attributeName="baseFrequency" dur="100s" values="0.03;0.005;0.02" repeatCount="indefinite"></animate>
+            </feTurbulence>
+            <feDisplacementMap in="SourceGraphic" scale="30">
+        </filter>
+    </svg>
+    <script src="app.js"></script>
+</body>
+</html>
